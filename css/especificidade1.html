@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+
+        /*
+                em linhas gerais: . . .
+                1. regra com !important
+                2. seletoes mais especificos
+                3. ultima regra processada
+
+        */
+
+        p {
+            background-color: gray;
+        }
+
+        .observacao {
+            background-color: green;
+        }
+        
+        p.observacao{
+            background-color: blue;
+            background: linear-gradient(to right, red, blue);
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <p class='observacao'>Olha essa observação!!!!</p>
+</body>
+
+</html>
