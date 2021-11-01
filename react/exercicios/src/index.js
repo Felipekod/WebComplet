@@ -12,8 +12,6 @@ import Saudacao from './componentes/Saudacao'
 
 ReactDOM.render(
   <div>
-      <BoaTarde nom = 'Ana'/>
-      <BoaNoite nom = 'Bia'/>
       <Saudacao type="Bonjour" nom="Joao"/>
   </div>,
   document.getElementById('root')
