@@ -10,9 +10,11 @@ import Bonjour from './componentes/Bonjour'
 import {BoaTarde, BoaNoite} from './componentes/Multiplo'
 import Saudacao from './componentes/Saudacao'
 
+import Pai from './componentes/Pai'
+
 ReactDOM.render(
   <div>
-      <Saudacao type="Bonjour" nom="Joao"/>
+      <Pai nome="Paulo" sobrenome="Silva"/>
   </div>,
   document.getElementById('root')
 );
