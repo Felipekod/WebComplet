@@ -130,11 +130,11 @@ export default class UserCrud extends Component {
                     <td>{user.name}</td>
                     <td>{user.email}</td>
                     <td>
-                        <button className="btn btn-warning"
+                        <button className="btn btn-warning mt-1 ml-1"
                             onClick={() => this.load(user)}>
                             <i className="fa fa-pencil"></i>
                         </button>
-                        <button className="btn btn-danger ml-2"
+                        <button id="btn-remove" className="btn btn-danger mt-1 ml-1"
                             onClick={() => this.remove(user)}>
                             <i className="fa fa-trash"></i>
                         </button>
